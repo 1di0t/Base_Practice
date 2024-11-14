@@ -6,6 +6,7 @@ def solution(numer1, denom1, numer2, denom2):
 def GCD(a, b):
     while b:
         a, b = b, a % b
+        print(a,b)
     return a
 
 solution(9,2,1,3) # [5,6]
